@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+<h2>STUDENT REGISTRATION FORM</h2>
+
+<form>
+
+    Name:<br>
+    <input type="text" name="name"><br><br>
+
+    Reg No:<br>
+    <input type="text" name="regno"><br><br>
+
+    Gender:<br>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <br><br>
+
+    School:<br>
+    <select name="school">
+        <option value="SPAS" selected>SPAS</option>
+        <option value="Health Science">Health Science</option>
+        <option value="Business">Business</option>
+        <option value="Engineering">Engineering</option>
+        <option value="Law">Law</option>
+        <option value="Education">Education</option>
+    </select>
+    <br><br>
+
+    Programme:
+    <select name="programme">
+        <option value="BMC" selected>BMC</option>
+        <option value="BSE">BSE</option>
+        <option value="BBIT">BBIT</option>
+        <option value="BIT">BIT</option>
+        <option value="CS">CS</option>
+        <option value="BAS">BAS</option>
+    </select>
+    
+
+    Year:
+    <select name="year">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+    <br><br>
+
+    Academic Background:<br>
+    <textarea name="academic_background" rows="4" cols="40"></textarea>
+    <br><br>
+
+    Passport Photo:<br>
+    <input type="file" name="passport" accept=".png, .jpg, .jpeg">
+    <br><br>
+
+    <input type="reset" value="Reset">
+    <input type="button" value="Cancel">
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
