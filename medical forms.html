@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Form</title>
+</head>
+
+<body>
+
+<h2>MEDICAL FORM</h2>
+
+<form>
+
+    Patient Name:<br>
+    <input type="text" name="patient_name"><br><br>
+
+    Age:<br>
+    <input type="number" name="age"><br><br>
+
+    Gender:<br>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <br><br>
+
+    Blood Group:<br>
+    <select name="blood_group">
+        <option>A+</option>
+        <option>A-</option>
+        <option>B+</option>
+        <option>B-</option>
+        <option>AB+</option>
+        <option>AB-</option>
+        <option>O+</option>
+        <option>O-</option>
+    </select>
+    <br><br>
+
+    Contact Number:<br>
+    <input type="tel" name="contact"><br><br>
+
+    Medical Condition:<br>
+    <textarea name="condition" rows="4" cols="40"></textarea>
+    <br><br>
+
+    Allergies:<br>
+    <textarea name="allergies" rows="3" cols="40"></textarea>
+    <br><br>
+
+    Are you currently on medication?<br>
+    <input type="radio" name="medication" value="Yes"> Yes
+    <input type="radio" name="medication" value="No"> No
+    <br><br>
+
+    Emergency Contact Name:<br>
+    <input type="text" name="emergency_name"><br><br>
+
+    Emergency Contact Number:<br>
+    <input type="tel" name="emergency_contact"><br><br>
+
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
