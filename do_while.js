@@ -1,6 +1,5 @@
-//  This program calculates the factorial of a positive integer using a while loop
-
-let n = 10; 
+// This program to calculate factorial of N using a do-while loop
+let n = 5; 
 
 let factorial = 1;
 let i = 1;
@@ -8,11 +7,11 @@ let i = 1;
 if (n < 0) {
   console.log("Factorial is not defined for negative numbers.");
 } else {
-  
-  while (i <= n) {
+
+  do {
     factorial = factorial * i;
     i++;
-  }
+  } while (i <= n);
 
   console.log("Factorial of " + n + " is: " + factorial);
 }
